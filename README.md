@@ -1,10 +1,9 @@
 # FFCarouselBanner
 ==============
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/YYWebImage/master/LICENSE)&nbsp;
-![Support](https://img.shields.io/badge/support-iOS%207%2B-blue.svg);
-(https://www.apple.com/nl/ios/)&nbsp;
+[![Support](https://img.shields.io/badge/support-iOS%207%2B-blue.svg)](https://www.apple.com/nl/ios/)&nbsp;
 
-![CaroselBannerGif]()
+![CaroselBannerGif](https://github.com/iostalks/FFCarouselBanner/blob/master/Demo/CaroselBannerGif.gif)
 
 FFCarouselBanner 是一个基于 [YYWebImage](https://github.com/ibireme/YYWebImage) 的无限轮播网络图片组件。
 
@@ -16,8 +15,9 @@ FFCarouselBanner 是一个基于 [YYWebImage](https://github.com/ibireme/YYWebIm
 用法
 ==============
 
-**注意：必须将使用该控件的 ViewController `automaticallyAdjustsScrollViewInsets`属性设置为 `NO`。**
-
+**注意：必须将使用该控件的 ViewController 的 `automaticallyAdjustsScrollViewInsets`属性设置为 `NO`。**
+	
+	CGRect frame = CGRectMake(0, 64, kScreenWidth, kScreenWidth*2/3);
     FFCarouselBanner *bannerView = [FFCarouselBanner bannerWithImageURLs:imageLinks];
     bannerView.frame = frame;
     bannerView.scrollTimeInterval = 2.0;
@@ -25,6 +25,7 @@ FFCarouselBanner 是一个基于 [YYWebImage](https://github.com/ibireme/YYWebIm
     self.banner.selectedBlock = ^(NSUInteger selectedIndex) {
         NSLog(@"index: %lu", (unsigned long)selectedIndex);
     };
+    [self.view addSubview:bannerView];
     
 
 手动安装
@@ -38,12 +39,9 @@ FFCarouselBanner 是一个基于 [YYWebImage](https://github.com/ibireme/YYWebIm
 	* sqlite3
 	* libz
 4. 导入 `FFCarouselBanner.h`。
-5. 注意：如果工程中已经使用了 <YYKit/YYKit.h> 只要添加 `FFCarouselBanner.h`和`FFCarouselBanner.m`即可。
+5. 注意：如果工程中已经使用了 `<YYKit/YYKit.h>` 只要添加 `FFCarouselBanner.h`和`FFCarouselBanner.m`两个文件即可。
     
 系统要求
 ==============
 该项目最低支持 `iOS 7.0` 和 `Xcode 7.0`。
 
-许可证
-==============
-YYWebImage 使用 MIT 许可证，详情见 LICENSE 文件。
