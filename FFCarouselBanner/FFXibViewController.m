@@ -30,7 +30,7 @@
                             @"https://d13yacurqjgara.cloudfront.net/users/26059/screenshots/1521183/farmers.jpg",
                             @"https://d13yacurqjgara.cloudfront.net/users/44323/screenshots/2737293/joy_dribz.png",
 
-//                            // gif: https://dribbble.com/markpear
+                            // gif: https://dribbble.com/markpear
                             @"https://d13yacurqjgara.cloudfront.net/users/345826/screenshots/1734216/dots9.0.gif",
                             @"https://d13yacurqjgara.cloudfront.net/users/345826/screenshots/2599413/lines4.0.gif",
                             @"https://d13yacurqjgara.cloudfront.net/users/345826/screenshots/2219244/dots28.gif",
@@ -47,8 +47,10 @@
         [_self.navigationController pushViewController:codeVC animated:YES];
         NSLog(@"selected index: %ld", selectedIndex);
     };
-//    UILabel *label ;
-//    label.textAlignment
+}
+
+- (IBAction)clearCache:(id)sender {
+    [self.bannerView clearCache];
 }
 
 @end

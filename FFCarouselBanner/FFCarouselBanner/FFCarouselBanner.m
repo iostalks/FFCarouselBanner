@@ -112,13 +112,20 @@ static NSString * const kFFCarouselBannerCollectionViewCellID = @"kFFCarouselBan
 
 - (void)layoutSubviews
 {
-    if (self.size.width == 0 || self.size.height == 0) {
-        return;
-    }
+    if (self.size.width == 0 || self.size.height == 0) return;
     
     _collectionVew.size  = self.size;
     _flowLayout.itemSize = self.size;
 
+    [self layoutPageControl];
+    [self scrollToStartIndex];
+    [super layoutSubviews];
+}
+
+#pragma mark - Layout Helper
+
+- (void)layoutPageControl
+{
     CGFloat kMarginSpace = 16.0f;
     _pageControl.width = kMarginSpace * _imageURLs.count;
     _pageControl.bottom  = self.height - kMarginSpace;
@@ -133,14 +140,16 @@ static NSString * const kFFCarouselBannerCollectionViewCellID = @"kFFCarouselBan
             _pageControl.right = self.width - kMarginSpace;
             break;
     }
-    
+}
+
+- (void)scrollToStartIndex
+{
     if (_imageURLs.count > 1) {
         NSUInteger startIndex = _imageURLs.count * kMultipleItems / 2 - _imageURLs.count / 2;
         NSIndexPath *indexPath = [NSIndexPath indexPathForRow:startIndex inSection:0];
         [_collectionVew scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
     }
-    
-    [super layoutSubviews];
+
 }
 
 #pragma mark - Accesser

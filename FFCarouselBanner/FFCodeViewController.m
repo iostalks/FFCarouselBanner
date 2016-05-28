@@ -17,9 +17,8 @@
 
 @implementation FFCodeViewController
 
-- (void)dealloc
-{
-    NSLog(@"delloc");
+- (void)dealloc {
+    NSLog(@"%s", __func__);
 }
 
 - (void)viewDidLoad {
@@ -44,10 +43,9 @@
     ];
     
     CGRect frame = CGRectMake(0, 64, kScreenWidth, kScreenWidth*2/3);
-//UITextField
     self.banner = [FFCarouselBanner bannerWithImageURLs:imageLinks];
     self.banner.frame = frame;
-    self.banner.scrollTimeInterval = 1.0;
+    self.banner.scrollTimeInterval = 2.0;
     self.banner.placeholder = [UIImage imageNamed:@"placeholder"];
     self.banner.pageControl.currentPageIndicatorTintColor = [UIColor colorWithRed:1.0 green:0.502 blue:0.0 alpha:1.0];
     self.banner.pageControlAlignment = FFPageControlAlignmentRight;
@@ -56,5 +54,6 @@
     };
     
     [self.view addSubview:_banner];
+    
 }
 @end;

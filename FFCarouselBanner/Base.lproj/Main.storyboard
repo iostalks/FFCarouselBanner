@@ -8,7 +8,7 @@
         <!--Xib View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="FFXibViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FFXibViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -32,7 +32,13 @@
                             <constraint firstItem="ag6-0d-Ozy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xqO-he-SQU"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="yGK-fk-vQc"/>
+                    <navigationItem key="navigationItem" id="yGK-fk-vQc">
+                        <barButtonItem key="rightBarButtonItem" title="Reload" id="X67-aV-zmV">
+                            <connections>
+                                <action selector="clearCache:" destination="BYZ-38-t0r" id="gfG-Q5-CHM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="bannerView" destination="ag6-0d-Ozy" id="vAd-Ak-yTK"/>
                     </connections>
