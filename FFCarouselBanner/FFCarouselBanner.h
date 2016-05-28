@@ -24,15 +24,16 @@
 //  THE SOFTWARE.
 //
 
+// GitHub Repository: https://github.com/iostalks/FFCarouselBanner
 ///======================================================================================
 /// NOTE: You must to set UIViewcontroller `automaticallyAdjustsScrollViewInsets` to `NO`
 ///======================================================================================
+
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class FFCarouselBanner;
 typedef void (^FFCarouselBannerDidSelectedBlock)(NSUInteger currentIndex);
 
 /** Values for FFPageControlAlignment */
