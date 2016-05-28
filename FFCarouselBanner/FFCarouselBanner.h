@@ -30,12 +30,6 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<YYKit/YYKit.h>)
-#import <YYKit/YYKit.h>
-#else
-#import "YYWebImage.h"
-#endif
-
 NS_ASSUME_NONNULL_BEGIN
 
 @class FFCarouselBanner;

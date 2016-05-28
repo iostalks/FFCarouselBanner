@@ -10,7 +10,10 @@
 #import "FFCodeViewController.h"
 #import "FFCarouselBanner.h"
 
+#ifndef kScreenWidth
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#endif
+
 @interface FFXibViewController ()
 @property (weak, nonatomic) IBOutlet FFCarouselBanner *bannerView;
 @end

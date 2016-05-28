@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE5E90461CF95DBC00DCCEE4 /* FFCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90431CF95DBC00DCCEE4 /* FFCodeViewController.m */; };
+		FE5E90471CF95DBC00DCCEE4 /* FFXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90451CF95DBC00DCCEE4 /* FFXibViewController.m */; };
+		FE5E90931CF95DDB00DCCEE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90911CF95DDB00DCCEE4 /* main.m */; };
+		FE5E90971CF95DE600DCCEE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90951CF95DE600DCCEE4 /* AppDelegate.m */; };
+		FE5E90981CF95DE600DCCEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5E90961CF95DE600DCCEE4 /* Assets.xcassets */; };
+		FE5E909D1CF95DEC00DCCEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5E90991CF95DEC00DCCEE4 /* LaunchScreen.storyboard */; };
+		FE5E909E1CF95DEC00DCCEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5E909B1CF95DEC00DCCEE4 /* Main.storyboard */; };
+		FE5E911A1CF95FAF00DCCEE4 /* FFCarouselBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90E91CF95FAF00DCCEE4 /* FFCarouselBanner.m */; };
+		FE5E911B1CF95FAF00DCCEE4 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90ED1CF95FAF00DCCEE4 /* UIView+YYAdd.m */; };
+		FE5E911C1CF95FAF00DCCEE4 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90F01CF95FAF00DCCEE4 /* YYTimer.m */; };
+		FE5E911D1CF95FAF00DCCEE4 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90F41CF95FAF00DCCEE4 /* YYCache.m */; };
+		FE5E911E1CF95FAF00DCCEE4 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90F61CF95FAF00DCCEE4 /* YYDiskCache.m */; };
+		FE5E911F1CF95FAF00DCCEE4 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90F81CF95FAF00DCCEE4 /* YYKVStorage.m */; };
+		FE5E91201CF95FAF00DCCEE4 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90FA1CF95FAF00DCCEE4 /* YYMemoryCache.m */; };
+		FE5E91211CF95FAF00DCCEE4 /* _YYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90FD1CF95FAF00DCCEE4 /* _YYWebImageSetter.m */; };
+		FE5E91221CF95FAF00DCCEE4 /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E90FF1CF95FAF00DCCEE4 /* CALayer+YYWebImage.m */; };
+		FE5E91231CF95FAF00DCCEE4 /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E91011CF95FAF00DCCEE4 /* MKAnnotationView+YYWebImage.m */; };
+		FE5E91241CF95FAF00DCCEE4 /* UIButton+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E91031CF95FAF00DCCEE4 /* UIButton+YYWebImage.m */; };
+		FE5E91251CF95FAF00DCCEE4 /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E91051CF95FAF00DCCEE4 /* UIImage+YYWebImage.m */; };
+		FE5E91261CF95FAF00DCCEE4 /* UIImageView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E91071CF95FAF00DCCEE4 /* UIImageView+YYWebImage.m */; };
+		FE5E91271CF95FAF00DCCEE4 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E910A1CF95FAF00DCCEE4 /* YYAnimatedImageView.m */; };
+		FE5E91281CF95FAF00DCCEE4 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E910C1CF95FAF00DCCEE4 /* YYFrameImage.m */; };
+		FE5E91291CF95FAF00DCCEE4 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E910E1CF95FAF00DCCEE4 /* YYImage.m */; };
+		FE5E912A1CF95FAF00DCCEE4 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E91101CF95FAF00DCCEE4 /* YYImageCoder.m */; };
+		FE5E912B1CF95FAF00DCCEE4 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E91121CF95FAF00DCCEE4 /* YYSpriteSheetImage.m */; };
+		FE5E912C1CF95FAF00DCCEE4 /* YYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E91141CF95FAF00DCCEE4 /* YYImageCache.m */; };
+		FE5E912D1CF95FAF00DCCEE4 /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E91171CF95FAF00DCCEE4 /* YYWebImageManager.m */; };
+		FE5E912E1CF95FAF00DCCEE4 /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E91191CF95FAF00DCCEE4 /* YYWebImageOperation.m */; };
+		FEF718641CF69E0500CE5582 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF718631CF69E0500CE5582 /* libz.tbd */; };
+		FEF718661CF69E3600CE5582 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF718651CF69E3600CE5582 /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE5E90421CF95DBC00DCCEE4 /* FFCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFCodeViewController.h; path = FFCarouselBannerDemo/FFCodeViewController.h; sourceTree = SOURCE_ROOT; };
+		FE5E90431CF95DBC00DCCEE4 /* FFCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFCodeViewController.m; path = FFCarouselBannerDemo/FFCodeViewController.m; sourceTree = SOURCE_ROOT; };
+		FE5E90441CF95DBC00DCCEE4 /* FFXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFXibViewController.h; path = FFCarouselBannerDemo/FFXibViewController.h; sourceTree = SOURCE_ROOT; };
+		FE5E90451CF95DBC00DCCEE4 /* FFXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFXibViewController.m; path = FFCarouselBannerDemo/FFXibViewController.m; sourceTree = SOURCE_ROOT; };
+		FE5E90901CF95DDB00DCCEE4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FFCarouselBannerDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		FE5E90911CF95DDB00DCCEE4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FFCarouselBannerDemo/main.m; sourceTree = SOURCE_ROOT; };
+		FE5E90941CF95DE600DCCEE4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FFCarouselBannerDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		FE5E90951CF95DE600DCCEE4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FFCarouselBannerDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		FE5E90961CF95DE600DCCEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FFCarouselBannerDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		FE5E909A1CF95DEC00DCCEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FFCarouselBannerDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		FE5E909C1CF95DEC00DCCEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FFCarouselBannerDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		FE5E90E81CF95FAF00DCCEE4 /* FFCarouselBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCarouselBanner.h; sourceTree = "<group>"; };
+		FE5E90E91CF95FAF00DCCEE4 /* FFCarouselBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCarouselBanner.m; sourceTree = "<group>"; };
+		FE5E90EC1CF95FAF00DCCEE4 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		FE5E90ED1CF95FAF00DCCEE4 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		FE5E90EE1CF95FAF00DCCEE4 /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		FE5E90EF1CF95FAF00DCCEE4 /* YYTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimer.h; sourceTree = "<group>"; };
+		FE5E90F01CF95FAF00DCCEE4 /* YYTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimer.m; sourceTree = "<group>"; };
+		FE5E90F31CF95FAF00DCCEE4 /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
+		FE5E90F41CF95FAF00DCCEE4 /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
+		FE5E90F51CF95FAF00DCCEE4 /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
+		FE5E90F61CF95FAF00DCCEE4 /* YYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
+		FE5E90F71CF95FAF00DCCEE4 /* YYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
+		FE5E90F81CF95FAF00DCCEE4 /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
+		FE5E90F91CF95FAF00DCCEE4 /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
+		FE5E90FA1CF95FAF00DCCEE4 /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
+		FE5E90FC1CF95FAF00DCCEE4 /* _YYWebImageSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _YYWebImageSetter.h; sourceTree = "<group>"; };
+		FE5E90FD1CF95FAF00DCCEE4 /* _YYWebImageSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _YYWebImageSetter.m; sourceTree = "<group>"; };
+		FE5E90FE1CF95FAF00DCCEE4 /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YYWebImage.h"; sourceTree = "<group>"; };
+		FE5E90FF1CF95FAF00DCCEE4 /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YYWebImage.m"; sourceTree = "<group>"; };
+		FE5E91001CF95FAF00DCCEE4 /* MKAnnotationView+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+YYWebImage.h"; sourceTree = "<group>"; };
+		FE5E91011CF95FAF00DCCEE4 /* MKAnnotationView+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+YYWebImage.m"; sourceTree = "<group>"; };
+		FE5E91021CF95FAF00DCCEE4 /* UIButton+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YYWebImage.h"; sourceTree = "<group>"; };
+		FE5E91031CF95FAF00DCCEE4 /* UIButton+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YYWebImage.m"; sourceTree = "<group>"; };
+		FE5E91041CF95FAF00DCCEE4 /* UIImage+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YYWebImage.h"; sourceTree = "<group>"; };
+		FE5E91051CF95FAF00DCCEE4 /* UIImage+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YYWebImage.m"; sourceTree = "<group>"; };
+		FE5E91061CF95FAF00DCCEE4 /* UIImageView+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YYWebImage.h"; sourceTree = "<group>"; };
+		FE5E91071CF95FAF00DCCEE4 /* UIImageView+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YYWebImage.m"; sourceTree = "<group>"; };
+		FE5E91091CF95FAF00DCCEE4 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		FE5E910A1CF95FAF00DCCEE4 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		FE5E910B1CF95FAF00DCCEE4 /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		FE5E910C1CF95FAF00DCCEE4 /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		FE5E910D1CF95FAF00DCCEE4 /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		FE5E910E1CF95FAF00DCCEE4 /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		FE5E910F1CF95FAF00DCCEE4 /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		FE5E91101CF95FAF00DCCEE4 /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		FE5E91111CF95FAF00DCCEE4 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		FE5E91121CF95FAF00DCCEE4 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		FE5E91131CF95FAF00DCCEE4 /* YYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCache.h; sourceTree = "<group>"; };
+		FE5E91141CF95FAF00DCCEE4 /* YYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCache.m; sourceTree = "<group>"; };
+		FE5E91151CF95FAF00DCCEE4 /* YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImage.h; sourceTree = "<group>"; };
+		FE5E91161CF95FAF00DCCEE4 /* YYWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageManager.h; sourceTree = "<group>"; };
+		FE5E91171CF95FAF00DCCEE4 /* YYWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageManager.m; sourceTree = "<group>"; };
+		FE5E91181CF95FAF00DCCEE4 /* YYWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageOperation.h; sourceTree = "<group>"; };
+		FE5E91191CF95FAF00DCCEE4 /* YYWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageOperation.m; sourceTree = "<group>"; };
+		FEF717BB1CF5A39700CE5582 /* FFCarouselBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFCarouselBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF718631CF69E0500CE5582 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FEF718651CF69E3600CE5582 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF717B81CF5A39700CE5582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF718661CF69E3600CE5582 /* libsqlite3.0.tbd in Frameworks */,
+				FEF718641CF69E0500CE5582 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE5E90E71CF95FAF00DCCEE4 /* FFCarouselBanner */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E90E81CF95FAF00DCCEE4 /* FFCarouselBanner.h */,
+				FE5E90E91CF95FAF00DCCEE4 /* FFCarouselBanner.m */,
+				FE5E90EA1CF95FAF00DCCEE4 /* YYKit */,
+			);
+			name = FFCarouselBanner;
+			path = ../../FFCarouselBanner;
+			sourceTree = "<group>";
+		};
+		FE5E90EA1CF95FAF00DCCEE4 /* YYKit */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E90EB1CF95FAF00DCCEE4 /* Utility */,
+				FE5E90F11CF95FAF00DCCEE4 /* YYWebImage */,
+			);
+			path = YYKit;
+			sourceTree = "<group>";
+		};
+		FE5E90EB1CF95FAF00DCCEE4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E90EC1CF95FAF00DCCEE4 /* UIView+YYAdd.h */,
+				FE5E90ED1CF95FAF00DCCEE4 /* UIView+YYAdd.m */,
+				FE5E90EE1CF95FAF00DCCEE4 /* YYKitMacro.h */,
+				FE5E90EF1CF95FAF00DCCEE4 /* YYTimer.h */,
+				FE5E90F01CF95FAF00DCCEE4 /* YYTimer.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FE5E90F11CF95FAF00DCCEE4 /* YYWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E90F21CF95FAF00DCCEE4 /* Cache */,
+				FE5E90FB1CF95FAF00DCCEE4 /* Categories */,
+				FE5E91081CF95FAF00DCCEE4 /* Image */,
+				FE5E91131CF95FAF00DCCEE4 /* YYImageCache.h */,
+				FE5E91141CF95FAF00DCCEE4 /* YYImageCache.m */,
+				FE5E91151CF95FAF00DCCEE4 /* YYWebImage.h */,
+				FE5E91161CF95FAF00DCCEE4 /* YYWebImageManager.h */,
+				FE5E91171CF95FAF00DCCEE4 /* YYWebImageManager.m */,
+				FE5E91181CF95FAF00DCCEE4 /* YYWebImageOperation.h */,
+				FE5E91191CF95FAF00DCCEE4 /* YYWebImageOperation.m */,
+			);
+			path = YYWebImage;
+			sourceTree = "<group>";
+		};
+		FE5E90F21CF95FAF00DCCEE4 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E90F31CF95FAF00DCCEE4 /* YYCache.h */,
+				FE5E90F41CF95FAF00DCCEE4 /* YYCache.m */,
+				FE5E90F51CF95FAF00DCCEE4 /* YYDiskCache.h */,
+				FE5E90F61CF95FAF00DCCEE4 /* YYDiskCache.m */,
+				FE5E90F71CF95FAF00DCCEE4 /* YYKVStorage.h */,
+				FE5E90F81CF95FAF00DCCEE4 /* YYKVStorage.m */,
+				FE5E90F91CF95FAF00DCCEE4 /* YYMemoryCache.h */,
+				FE5E90FA1CF95FAF00DCCEE4 /* YYMemoryCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		FE5E90FB1CF95FAF00DCCEE4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E90FC1CF95FAF00DCCEE4 /* _YYWebImageSetter.h */,
+				FE5E90FD1CF95FAF00DCCEE4 /* _YYWebImageSetter.m */,
+				FE5E90FE1CF95FAF00DCCEE4 /* CALayer+YYWebImage.h */,
+				FE5E90FF1CF95FAF00DCCEE4 /* CALayer+YYWebImage.m */,
+				FE5E91001CF95FAF00DCCEE4 /* MKAnnotationView+YYWebImage.h */,
+				FE5E91011CF95FAF00DCCEE4 /* MKAnnotationView+YYWebImage.m */,
+				FE5E91021CF95FAF00DCCEE4 /* UIButton+YYWebImage.h */,
+				FE5E91031CF95FAF00DCCEE4 /* UIButton+YYWebImage.m */,
+				FE5E91041CF95FAF00DCCEE4 /* UIImage+YYWebImage.h */,
+				FE5E91051CF95FAF00DCCEE4 /* UIImage+YYWebImage.m */,
+				FE5E91061CF95FAF00DCCEE4 /* UIImageView+YYWebImage.h */,
+				FE5E91071CF95FAF00DCCEE4 /* UIImageView+YYWebImage.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FE5E91081CF95FAF00DCCEE4 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E91091CF95FAF00DCCEE4 /* YYAnimatedImageView.h */,
+				FE5E910A1CF95FAF00DCCEE4 /* YYAnimatedImageView.m */,
+				FE5E910B1CF95FAF00DCCEE4 /* YYFrameImage.h */,
+				FE5E910C1CF95FAF00DCCEE4 /* YYFrameImage.m */,
+				FE5E910D1CF95FAF00DCCEE4 /* YYImage.h */,
+				FE5E910E1CF95FAF00DCCEE4 /* YYImage.m */,
+				FE5E910F1CF95FAF00DCCEE4 /* YYImageCoder.h */,
+				FE5E91101CF95FAF00DCCEE4 /* YYImageCoder.m */,
+				FE5E91111CF95FAF00DCCEE4 /* YYSpriteSheetImage.h */,
+				FE5E91121CF95FAF00DCCEE4 /* YYSpriteSheetImage.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		FEF717B21CF5A39700CE5582 = {
+			isa = PBXGroup;
+			children = (
+				FEF717BD1CF5A39700CE5582 /* FFCarouselBanner */,
+				FEF717BC1CF5A39700CE5582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF717BC1CF5A39700CE5582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF717BB1CF5A39700CE5582 /* FFCarouselBanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF717BD1CF5A39700CE5582 /* FFCarouselBanner */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E90E71CF95FAF00DCCEE4 /* FFCarouselBanner */,
+				FE5E90421CF95DBC00DCCEE4 /* FFCodeViewController.h */,
+				FE5E90431CF95DBC00DCCEE4 /* FFCodeViewController.m */,
+				FE5E90441CF95DBC00DCCEE4 /* FFXibViewController.h */,
+				FE5E90451CF95DBC00DCCEE4 /* FFXibViewController.m */,
+				FEF718671CF69E5B00CE5582 /* Framework */,
+				FEF717BE1CF5A39700CE5582 /* Supporting Files */,
+			);
+			path = FFCarouselBanner;
+			sourceTree = "<group>";
+		};
+		FEF717BE1CF5A39700CE5582 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E90901CF95DDB00DCCEE4 /* Info.plist */,
+				FE5E90911CF95DDB00DCCEE4 /* main.m */,
+				FE5E90941CF95DE600DCCEE4 /* AppDelegate.h */,
+				FE5E90951CF95DE600DCCEE4 /* AppDelegate.m */,
+				FE5E90961CF95DE600DCCEE4 /* Assets.xcassets */,
+				FE5E90991CF95DEC00DCCEE4 /* LaunchScreen.storyboard */,
+				FE5E909B1CF95DEC00DCCEE4 /* Main.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF718671CF69E5B00CE5582 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FEF718651CF69E3600CE5582 /* libsqlite3.0.tbd */,
+				FEF718631CF69E0500CE5582 /* libz.tbd */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF717BA1CF5A39700CE5582 /* FFCarouselBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF717D21CF5A39700CE5582 /* Build configuration list for PBXNativeTarget "FFCarouselBanner" */;
+			buildPhases = (
+				FEF717B71CF5A39700CE5582 /* Sources */,
+				FEF717B81CF5A39700CE5582 /* Frameworks */,
+				FEF717B91CF5A39700CE5582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFCarouselBanner;
+			productName = FFCarouselBanner;
+			productReference = FEF717BB1CF5A39700CE5582 /* FFCarouselBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF717B31CF5A39700CE5582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jone;
+				TargetAttributes = {
+					FEF717BA1CF5A39700CE5582 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7779KFR2G9;
+					};
+				};
+			};
+			buildConfigurationList = FEF717B61CF5A39700CE5582 /* Build configuration list for PBXProject "FFCarouselBanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF717B21CF5A39700CE5582;
+			productRefGroup = FEF717BC1CF5A39700CE5582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF717BA1CF5A39700CE5582 /* FFCarouselBanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF717B91CF5A39700CE5582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5E909D1CF95DEC00DCCEE4 /* LaunchScreen.storyboard in Resources */,
+				FE5E90981CF95DE600DCCEE4 /* Assets.xcassets in Resources */,
+				FE5E909E1CF95DEC00DCCEE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF717B71CF5A39700CE5582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5E91231CF95FAF00DCCEE4 /* MKAnnotationView+YYWebImage.m in Sources */,
+				FE5E90971CF95DE600DCCEE4 /* AppDelegate.m in Sources */,
+				FE5E90471CF95DBC00DCCEE4 /* FFXibViewController.m in Sources */,
+				FE5E91271CF95FAF00DCCEE4 /* YYAnimatedImageView.m in Sources */,
+				FE5E911D1CF95FAF00DCCEE4 /* YYCache.m in Sources */,
+				FE5E91261CF95FAF00DCCEE4 /* UIImageView+YYWebImage.m in Sources */,
+				FE5E91211CF95FAF00DCCEE4 /* _YYWebImageSetter.m in Sources */,
+				FE5E911E1CF95FAF00DCCEE4 /* YYDiskCache.m in Sources */,
+				FE5E912B1CF95FAF00DCCEE4 /* YYSpriteSheetImage.m in Sources */,
+				FE5E91221CF95FAF00DCCEE4 /* CALayer+YYWebImage.m in Sources */,
+				FE5E912C1CF95FAF00DCCEE4 /* YYImageCache.m in Sources */,
+				FE5E91291CF95FAF00DCCEE4 /* YYImage.m in Sources */,
+				FE5E912D1CF95FAF00DCCEE4 /* YYWebImageManager.m in Sources */,
+				FE5E912E1CF95FAF00DCCEE4 /* YYWebImageOperation.m in Sources */,
+				FE5E911F1CF95FAF00DCCEE4 /* YYKVStorage.m in Sources */,
+				FE5E911B1CF95FAF00DCCEE4 /* UIView+YYAdd.m in Sources */,
+				FE5E912A1CF95FAF00DCCEE4 /* YYImageCoder.m in Sources */,
+				FE5E911A1CF95FAF00DCCEE4 /* FFCarouselBanner.m in Sources */,
+				FE5E91201CF95FAF00DCCEE4 /* YYMemoryCache.m in Sources */,
+				FE5E911C1CF95FAF00DCCEE4 /* YYTimer.m in Sources */,
+				FE5E91281CF95FAF00DCCEE4 /* YYFrameImage.m in Sources */,
+				FE5E90931CF95DDB00DCCEE4 /* main.m in Sources */,
+				FE5E91241CF95FAF00DCCEE4 /* UIButton+YYWebImage.m in Sources */,
+				FE5E91251CF95FAF00DCCEE4 /* UIImage+YYWebImage.m in Sources */,
+				FE5E90461CF95DBC00DCCEE4 /* FFCodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE5E90991CF95DEC00DCCEE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5E909A1CF95DEC00DCCEE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE5E909B1CF95DEC00DCCEE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5E909C1CF95DEC00DCCEE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEF717D01CF5A39700CE5582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF717D11CF5A39700CE5582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEF717D31CF5A39700CE5582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/FFCarouselBannerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jone.FFCarouselBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEF717D41CF5A39700CE5582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/FFCarouselBannerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jone.FFCarouselBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF717B61CF5A39700CE5582 /* Build configuration list for PBXProject "FFCarouselBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF717D01CF5A39700CE5582 /* Debug */,
+				FEF717D11CF5A39700CE5582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF717D21CF5A39700CE5582 /* Build configuration list for PBXNativeTarget "FFCarouselBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF717D31CF5A39700CE5582 /* Debug */,
+				FEF717D41CF5A39700CE5582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEF717B31CF5A39700CE5582 /* Project object */;
+}
