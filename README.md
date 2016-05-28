@@ -1,4 +1,4 @@
-# FFCarouselBanner
+FFCarouselBanner
 ==============
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/YYWebImage/master/LICENSE)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%207%2B-blue.svg)](https://www.apple.com/nl/ios/)&nbsp;
@@ -9,8 +9,8 @@ FFCarouselBanner 是一个基于 [YYWebImage](https://github.com/ibireme/YYWebIm
 
 支持 Storyboard 和 代码两种初始化方式。
 
-它底层用 [YYCache](https://github.com/ibireme/YYCache) 实现了图片的内存和磁盘缓存。
-用 YYAnimatedImageView 支持加载 gif 动画。
+它底层用 [YYCache](https://github.com/ibireme/YYCache) 实现了图片的内存和磁盘缓存。使用
+ YYAnimatedImageView 支持加载 gif 动画。
 
 用法
 ==============
