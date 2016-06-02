@@ -8,13 +8,12 @@
 
 #import "FFCarouselBanner.h"
 
-#import "YYTimer.h"
-#import "UIView+YYAdd.h"
-
 #if __has_include(<YYKit/YYKit.h>)
 #import <YYKit/YYKit.h>
 #else
 #import "YYWebImage.h"
+#import "YYTimer.h"
+#import "UIView+YYAdd.h"
 #endif
 
 @interface FFCarouselBannerCollectionViewCell: UICollectionViewCell

@@ -47,7 +47,7 @@ typedef NS_ENUM(NSUInteger, FFPageControlAlignment) {
 
 @property (nullable, nonatomic, copy)     NSArray        *imageURLs;
 @property (nullable, nonatomic, strong)   UIImage        *placeholder;  // default is nill.
-@property (nullable, nonatomic, readonly) UIPageControl  *pageControl;
+@property (nullable, nonatomic, readonly) UIPageControl  *pageControl;  // allow to custom indicator style
 @property (nonatomic, assign)             NSTimeInterval           scrollTimeInterval;   // default value is 3.0s.
 @property (nonatomic, assign)             FFPageControlAlignment   pageControlAlignment; // default is FFPageControlAlignmentCenter.
 @property (nullable, nonatomic, copy)     FFCarouselBannerDidSelectedBlock selectedBlock;
