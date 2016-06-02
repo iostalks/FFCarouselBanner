@@ -7,7 +7,7 @@ FFCarouselBanner
 
 FFCarouselBanner 是一个基于 [YYWebImage](https://github.com/ibireme/YYWebImage) 的无限轮播网络图片组件。
 
-支持 Storyboard 和 代码两种初始化方式。
+支持 Storyboard 和代码两种初始化方式。
 
 它底层用 [YYCache](https://github.com/ibireme/YYCache) 实现了图片的内存和磁盘缓存，使用
  YYAnimatedImageView 支持加载 gif 动画。
